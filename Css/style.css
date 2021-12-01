@@ -11,7 +11,8 @@
 }
 body{
     font-family: var(--font-family);
-    overflow-x: hidden;
+    overflow-x:  hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -393,7 +394,7 @@ footer{
 
   .loader-wrapper{
       width: 100vw;
-      height: 10000px;
+      height: 6000px;
       position: absolute;
       top: 0%;
       left: 0%;
@@ -420,7 +421,7 @@ footer{
       margin: -75px 0 0 -75px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #9370DB;
+      border-top-color: #d2e772;
       -webkit-animation: spin 2s linear infinite;
       animation: spin 2s linear infinite;
   }
@@ -433,7 +434,7 @@ footer{
       bottom: 5px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #BA55D3;
+      border-top-color: #cce94b;
       -webkit-animation: spin 3s linear infinite;
       animation: spin 3s linear infinite;
   }
@@ -446,7 +447,7 @@ footer{
       bottom: 15px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #FF00FF;
+      border-top-color: #fbff00;
       -webkit-animation: spin 1.5s linear infinite;
       animation: spin 1.5s linear infinite;
   }
