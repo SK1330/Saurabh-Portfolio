@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --font-family-1: 'Poppins', sans-serif;
+    --font-family-2: 'Roboto', sans-serif;
+    --yellow-color: #ffc513 ;
+    --white-color: #fff;
+    --heading-color: #3a3a3a;
+    --paragraph-color-1: #292929;
+    --paragrah-color-2 : #d4d4d4;
+    --background-color : #3b3b3b;
+}
+body{
+    font-family: var(--font-family-1);
+    overflow-x: hidden;
+}
+.top-header{
+    height: 50px;
+    color: var(--paragrah-color-2);
+    background: var(--paragraph-color-1);
+}
+.top-header li , .top-header li a{
+    list-style-type: none;
+    color: var(--paragrah-color-2);
+}
+.top-header li i{
+    color: var(--white-color);
+}
+
+.app{
+    color: black;
+    background: var(--yellow-color);
+}
+.app li{
+    color: black;
+    font-weight: 600;
+}
+.app li i{
+    font-size: 1.3rem;
+    color: black;
+}
+.main-header{
+    height: 100px;
+    text-transform: uppercase;
+}
+.main-header li{
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+
+}
+.main-header li:hover{
+    /* background: var(--yellow-color); */
+    border-bottom: 2px solid var(--yellow-color);
+    color: white;
+}
+.main-header a{
+    color: var(--heading-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.carousel-caption h5{
+    font-size: 3.4rem;
+    font-weight: 600;
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+.carousel-caption h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--yellow-color);
+    text-transform: capitalize;
+}
+.carousel-caption p{
+    font-family: var(--font-family-2);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+
+.service-btn{
+    padding: 18px 27px;
+    background: transparent;
+    border: 2px solid var(--yellow-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-weight: 700;
+}
+.service-btn:hover{
+    background: var(--yellow-color);
+    color: var(--heading-color);
+    
+}
+.heading h2{
+    font-size: 3.3rem;
+    color: var(--heading-color);
+    font-weight: 600;
+    font-family: var(--font-family-2);
+    text-transform: capitalize;
+}
+.heading span{
+    font-family: var(--font-family-2);
+    color: var(--paragraph-color-1);
+}
+.yellow-line{
+    width: 50px;
+    height: 3px;
+    color: var(--yellow-color);
+    background: var(--yellow-color);
+    margin: 20px auto;    
+}
+
+.featured-services ,.about-company{
+    margin: 100px auto;
+}
+.nav-tabs{
+    background: rgb(245,245 , 245);
+}
+
+.nav-item span {
+    text-transform: capitalize;
+    color: var(--heading-color);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.tab-pane{
+    background: #979797;
+    padding-top: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+.car-back{
+    height: 500px;
+    background: url(../images/background/service-tab.png) no-repeat;
+    background-position: center;
+}
+.information{
+    background: #696969;
+    color: var(--paragrah-color-2);
+    font-family: var(--font-family-2);
+}
+.know-more{
+    padding: 15px 27px;
+    background: transparent;
+    border: 2px solid var(--white-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-weight: 700;
+    font-family: var(--font-family-2);
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.left-about{
+    min-height: 500px;
+    padding: 30px;
+    background: var(--paragraph-color-1);
+    color: var(--white-color);
+}
+.left-about ul{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+}
+.toolbar{
+    color: var(--yellow-color);
+    margin-right: 10px;
+}
+.right-about{
+    background: url(../images/illustrations/tabs-img02.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.four-work-title span{
+    font-weight: 600;
+    color: var(--paragraph-color-1);
+    text-transform: capitalize;
+}
+.four-work img{
+    border-radius: 50%;
+    background-color: #d4d4d47a;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.map{
+    min-height: 300px;
+    margin: 100px auto;
+    background: url(../images/background/block-wrapper01.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: var(--white-color);
+}
+.map span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.map h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.verticle-yellow-line{
+    width: 3px;
+    height: 50px;
+    color: var(--yellow-color);
+    background: var(--yellow-color);
+    margin: 0 20px;
+}
+faq{
+    margin: 100px auto;
+}
+.left-faq h1{
+    font-size: 3rem;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-family: var(--font-family-2);
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.accordion-button{
+    background-color: #f5f5f5;
+    font-weight: 600;
+    color: var(--heading-color);
+    border: none;
+
+}
+.accordion-item{
+    margin-bottom: 20px;
+    font-family: var(--font-family-2);
+}
+.right-faq{
+    height: 500px;
+    background: url(../images/background/promo_img01.jpg)no-repeat;
+    background-position: center;
+}
+.right-faq h3{
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.breakdown{
+    margin: 100px auto;
+    min-height: 200px;
+    background: var(--background-color);
+}
+.truck-img{
+    width: 120px;
+    height: 110px;
+    background-color: violet;
+    background: var(--white-color);
+    border-radius: 50%;
+}
+.breakdown h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+.breakdown p{
+    margin-top: 10px;
+    font-family: var(--font-family-2);
+    color: var(--paragrah-color-2);
+}
+.breakdown i{
+    color: var(--yellow-color);
+}
+.pricing-plans{
+    background: url(../images/background/block-bg-4.jpg) no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+.pricing{
+    background: var(--white-color);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.pricing h5{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+.pricing span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.pricing p{
+    font-family: var(--font-family-2);
+    color: var(--paragraph-color-1);
+    margin-bottom: 30px;
+}
+.more-info{
+    padding: 15px 27px;
+    background: transparent;
+    border: 1px solid var(--heading-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--heading-color);
+    font-weight: 700;
+    font-family: var(--font-family-2);
+}
+
+.more-info:hover{
+    border: 1px solid var(--yellow-color);
+    color: var(--yellow-color);
+    box-shadow: 2px 1px 10px 2px var(--yellow-color);
+}
+.brands{
+    margin: 100px auto;
+}
+.brand-img{
+    border: 1px solid var(--paragrah-color-2);
+}
+
+footer{
+    padding-top: 70px;
+    background: var(--background-color);
+    color: var(--white-color);
+    background: url(../images/background/block-bg-4.jpg) no-repeat;
+    background-attachment: scroll;
+
+}
+footer h4{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+footer li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.bottom-footer{
+    margin-top: 50px;
+    background: var(--yellow-color);
+    padding: 20px 0;
+    color: var(--heading-color);
+}
+.bottom-footer a{
+    font-size: 2rem;
+    color: var(--heading-color);
+}
+
+@media (max-width:576px)
+{
+    .tab-pane{
+        padding: 0%;
+    }
+    .car-back{
+        background-size: contain;
+    }
+        
+    .heading h2{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:767px)
+{
+    .tab-pane{
+        padding: 0%;
+    }
+    .car-back{
+        height: 350px;
+        background-size: contain;
+    }
+
+}
+@media (max-width:992px)
+{
+    .carousel-caption h5{
+        font-size: 2rem;
+    }
+    .carousel-caption h1{
+        font-size: 2.5rem;
+    }
+    
+    .right-about{
+        min-height: 500px;
+    }
+    .car-back{
+        height: 400px;
+        background-size: contain;
+    }
+}
