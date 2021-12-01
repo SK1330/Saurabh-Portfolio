@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --font-family-1: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-family-2:  'Open Sans', sans-serif ;
+    --text-color-1: white;
+    --text-color-2: #2fdab8;
+    --paragrapgh-color:#545454;
+    --gallery-section:#fc636b;
+    --footer-color:#737070;
+    --black-color: black;
+}
+
+body{
+    overflow-x: hidden;
+}
+.dummy-header{
+    height: 40px;
+    background: black;
+}
+
+.dummy-header li{
+    list-style-type: none;
+    color: var(--text-color-1);
+    font-family: var(--font-family-1);
+}
+
+.middle-header{
+    height: 100px;
+}
+
+.search-here{
+    padding: 8px 30px;
+    color:var(--footer-color);
+    border: 0.5px solid var(--footer-color);
+}
+.search{
+    padding: 6px 15px;
+    border: none;
+    color: white;
+    background-color: var(--text-color-2);
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+.e-lite h1{
+    height: 50px;
+    letter-spacing: 1px;
+    font-family: var(--font-family-1);
+    font-weight: 300;
+    color: var(--black-color);
+    font-size: 2.5rem;
+}
+.e-lite h1 span{
+    padding: 0px 17px;
+    background: var(--black-color);
+    color: var(--text-color-1);
+    font-weight: bold; 
+}
+.y{
+    height: 50px;
+}
+.y-bag{
+    top: -30px;
+    right: 7px;
+}
+.bag{
+    color: var(--text-color-2);
+    font-size: 1rem;
+}
+.social ul li{
+    list-style: none;
+}
+.social ul li i{
+    padding: 5px 6px;
+    color: var(--text-color-1);
+    background-color: var(--text-color-2)
+}
+.share-on{
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.main-header{
+    background: var(--black-color);
+    height: 80px;
+}
+.main-header li{
+    list-style-type: none;
+}
+.main-header li a{
+    text-decoration: none;
+    font-family: var(--font-family-1);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--text-color-1);
+}
+
+.cart-btn{
+    border: none;
+    background: #17c3a2;
+    width: 48px;
+    height: 43px;
+    font-size: 24px;
+    color: #000;
+}
+
+.btn-back{
+    background: var(--text-color-2);
+    padding: 15px 22px;
+    text-align: center;
+}
+
+.mob-nav{
+    background: var(--black-color);
+    height: 50px;
+    color: var(--text-color-2);
+}
+.mob-nav i{
+    font-size: 2rem;
+}
+.mob-nav li{
+    list-style: none;
+    color: white;
+}
+.hero-section{
+    height: 550px;
+    background: linear-gradient(rgba(181, 131, 131, 0.26),rgba(108, 60, 60, 0.51)) , url(../images/background/women.jpeg) no-repeat;
+    background-position: center;
+}
+.hero-section h1{
+    font-family: var(--font-family-2);
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 14px;
+    color: var(--text-color-1);
+}
+.hero-section h1 span{
+    font-weight: 800;
+    color: var(--text-color-2);
+}
+
+.hero-section h3{
+    text-transform: capitalize;
+    letter-spacing: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffb900;
+    margin-top: 1rem;
+}
+
+.shop-now{
+    padding: 8px 20px;
+    text-decoration: none;
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    background: var(--text-color-2);
+    color: var(--text-color-1);
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    border: 2px solid var(--text-color-2);
+
+}
+
+.shop-now:hover{
+    color: var(--text-color-2);
+    background: transparent;
+    border: 2px solid var(--text-color-2);
+}
+.new-arrival{
+    padding: 100px 0px;
+}
+
+.new-arrival h3{
+    font-family: var(--font-family-1);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    letter-spacing: 8px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+.new-arrival h3 span{
+    font-weight: 800;
+    color: #e71f30;
+}
+
+.arrival-left{
+    width: 97%;
+    height: 300px;
+    background:linear-gradient(rgba(43, 35, 35, 0.199),rgba(78, 71, 71, 0.5)), url(../images/illustration/bottom1.jpg);
+    background-size: 100% 100%;
+    outline: 1px solid white;
+outline-offset: -20px;
+}
+
+.arrival-right{
+    width: 97%;
+    height: 300px;
+    background:linear-gradient(rgba(65, 63, 63, 0.199),rgba(78, 71, 71, 0.5)),  url(../images/illustration/bottom2.jpg);
+    background-size: 100% 100%;
+    outline: 1px solid white;
+outline-offset: -20px;
+}
+
+.left-save-upto{
+    height: 450px;
+    background: url(../images/background/mid.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.right-save-upto{
+    background: var(--text-color-2);
+}
+.save-upto-white{
+    background: var(--text-color-1);
+}
+
+.save-upto-white h3{
+    font-family: var(--font-family-2);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.save-upto-white h3 span{
+    color: var(--gallery-section);
+}
+
+.para{
+    font-family: var();
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    color: var(--paragrapgh-color);
+    line-height: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.three-event i{
+    color: var(--text-color-2);
+    font-size: 1.5rem;
+}
+.three-event p{
+    font-family: var(--font-family-2);
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.trending h3{
+    font-family: var(--font-family-1);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    letter-spacing: 8px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+.trending h3 span{
+    font-weight: 800;
+    color: #e71f30;
+}
+.left-trending{
+    height: 620px;
+    background: url(../images/illustration/trending-1.jpg) no-repeat;
+    background-size: 100% 100%;
+    outline: 1px solid white;
+outline-offset: -20px;
+}
+
+.top-trend{
+    height: 300px;
+    background: url(../images/illustration/bottom3.jpg);
+    background-size: 100% 100%;
+    outline: 1px solid white;
+outline-offset: -20px;
+}
+
+.bottom-trend{
+    margin-top: 20px;
+    height: 300px;
+    background: url(../images/illustration/bottom4.jpg);
+    background-size: 100% 100%;
+    outline: 1px solid white;
+outline-offset: -20px;
+}
+
+.left-discount{
+    height: 350px;
+    background: linear-gradient(rgba(83,70,70, 0.22),rgba(51, 41, 41, 0.2)) ,url(../images/illustration/trending-1.jpg);
+    background-size: cover;
+}
+.right-discount{
+    height: 350px;
+    background:linear-gradient(rgba(83,70,70, 0.22),rgba(51, 41, 41, 0.2)) , url(../images/illustration/blazzer.jpg);
+    background-size: cover;
+}
+
+.fifty-percent{
+    position: absolute;
+    top: 200px;
+    left: 200px ;
+    font-family: var(--font-family-2);
+    font-size: 1.5rem;
+    color: var(--text-color-1);
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+.fifty-percent span{
+    font-weight: 700;
+    color: var(--text-color-2);
+}
+
+.at-heading h2{
+    font-family: var(--font-family-1);
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--black-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.at-heading h2 span{
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.tab-headings nav a{
+    font-family: var(--font-family-1);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    border-radius: none;
+}
+.tab-headings h3{
+    font-family: var(--font-family-2);
+    text-transform: capitalize;
+    color: var(--gallery-section);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.fixed-image{
+    height: 400px;
+    background: linear-gradient(rgba(44, 36, 36, 0.26),rgba(56, 46, 46, 0.363)), url(../images/illustration/banner.jpg);
+    background-attachment: fixed;
+}
+
+.fixed-image h2{
+    font-family: var(--font-family-2);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color-1);
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.fixed-image span{
+    color: var(--black-color);
+}
+
+.services i{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-1);
+    background: var(--black-color);
+}
+
+.service-caption{
+    height: 100%;
+    margin-left: 10px;
+}
+.services h4{
+    font-family: var(--font-family-2);
+    font-size: 0.8rem;
+    color: #2fdab8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.services p{
+    margin-bottom: 0px;
+    font-family: var(--font-family-1);
+    color: var(--paragrapgh-color);
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+footer{
+    padding: 50px 0;
+    background: var(--black-color);
+    color: var(--text-color-1);
+}
+
+.first-column h4{
+    font-family: var(--font-family-1);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.first-column span{
+    font-weight: 600;
+    background: var(--text-color-2);
+    padding: 0 10px;
+    margin-right: 5px;
+}
+
+footer p{
+    color: var(--paragrapgh-color);
+    margin-top: 10px;
+    line-height: 2rem;
+    font-size: 14px;
+}
+footer h4{
+    font-family: var(--font-family-1);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+footer span{
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.second-column li{
+    list-style: none;
+    line-height: 2rem;
+}
+.second-column li a{
+    text-decoration: none;
+    color: var(--paragrapgh-color);
+}
+
+.information{
+    padding: 10px 0px;
+}
+.third-column i{
+    padding:0px 20px;
+    padding-top: 5px;
+}
+
+.middle-footer{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.submit{
+    padding: 0px 10px;
+    background-color: var(--text-color-2);
+    color: var(--text-color-1);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.man{
+
+    height: 100px;
+    background: url(../images/illustration/footer.jpg) no-repeat center;
+    background-size: cover;
+}
+
+@media (max-width:576px)
+{
+
+    .fifty-percent{
+        position: absolute;
+        top: 200px;
+        left: 150px ;
+        font-family: var(--font-family-2);
+        font-size: 1.2rem;
+        color: var(--text-color-1);
+        font-weight: 400;
+        letter-spacing: 10px;
+    }
+}

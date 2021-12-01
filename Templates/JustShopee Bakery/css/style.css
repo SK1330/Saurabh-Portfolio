@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+
+    --font-family-1:  'Poppins', sans-serif;
+    --font-family-2: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --text-color:black;
+    --text-color-2: white;
+    --footer-color:#a8a8a8;
+    --paragraph-color: #0c0c0c;
+    --button-color:#54afa0;
+    --background-color:#F4EBE6;
+    --h3-heading-color:#333;
+
+}
+body{
+    font-family: var(--font-family-1);
+}
+
+header {
+    background: var(--text-color);
+}
+.top-header a{
+    color: var(--text-color-2);
+    margin:0 10px;
+    font-size: 1.3rem;
+}
+
+.top-header li{
+    list-style-type: none;
+}
+.middle-header{
+    height: 100px;
+    padding: 10px auto;
+}
+.bottom-header ul li{
+    list-style-type: none;
+}
+.bottom-header ul li a{
+    margin: 0 20px;
+    text-transform: uppercase;
+    color: var(--text-color-2);
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+ .bottom-header ul li a:hover {
+ box-shadow: 0 15px 10px -10px rgba(22, 245, 245, 0.5);
+    }
+    
+  
+
+.cake-img h1{
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    color: var(--text-color-2);
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.cake-img h1 div{
+    color: var(--button-color);
+}
+.cake-img{
+    height: 600px;
+    background: url(../images/Background/banner-chocolate.jpg) no-repeat;
+    background-size: 100% 100%;
+} 
+
+.custom-shape-divider-bottom-1635581031 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1635581031 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 180px;
+}
+
+.custom-shape-divider-bottom-1635581031 .shape-fill {
+    fill: var(--background-color);
+}
+
+.hero-section{
+    padding-top: 50px;
+    background: var(--background-color);
+}
+.hero-section h2{
+    font-family: var(--font-family-1);
+    font-size: 2rem ;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.hero-section p{
+    font-family: var(--font-family-2);
+    /* margin-bottom: 30px; */
+}
+
+.shop-now{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family-2);
+    font-weight: 900;
+    color: var(--text-color-2);
+    font-size: 1rem;
+    padding: 19px 38px;
+    border: 2px solid var(--button-color);
+    background: var(--button-color);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.shop-now:hover{
+    color: var(--button-color);
+    background: transparent;
+
+}
+
+.right-hero-img{
+    width: 95%;
+    height: 600px;
+    background: url(../images/Background/banner-chocolate.jpg) no-repeat;
+    background-position: center;
+    border: 20px solid white;
+    position: relative;
+    top: 70px;
+}
+
+
+.limited-offer{
+    margin: 100px 0;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--h3-heading-color);
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 1rem;
+    color: var(--h3-heading-color);
+    font-family: var(--font-family-2);
+}
+.offer-1{
+    width: 95%;
+    height: 300px;
+    background: url(../images/Illustrations/sweet-1.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.offer-2{
+    width: 95%;
+    height: 300px;
+    background: url(../images/Illustrations/sweet-2.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.offer-3{
+    width: 95%;
+    height: 300px;
+    background: url(../images/Illustrations/sweet-3.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.more{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--font-family-2);
+    font-weight: 900;
+    color: var(--text-color-2);
+    font-size: 1rem;
+    padding: 12px 24px;
+    background: var(--button-color);
+    border-radius: 3px;
+}
+.more:hover{
+    color:white;
+    background: linear-gradient(90deg, rgba(58,180,146,1) 0%, rgba(29,188,253,1) 60%, rgba(69,252,198,1) 100%);
+}
+.testimonials
+{
+    background: var(--background-color);
+    padding: 100px 0;
+}
+.three-testimonial{
+    width: 95%;
+    padding: 40px;
+    background: var(--text-color-2);
+}
+
+.why-choose-us{
+    padding: 100px 0;
+    background: var(--background-color);
+}
+
+.blue-block{
+    width: 100%;
+    height: 60px;
+    background-color: #2e5668;
+    text-align: center;  
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer{
+    padding: 100px 0 30px;
+    background: var(--text-color);
+}
+footer h4{
+    color: var(--text-color-2);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+footer p{
+    color: var(--footer-color);
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: var(--footer-color);
+}
+
+.footer-logo{
+    position: relative;
+    bottom: 20px;
+}
+
+
+@media (max-width:576px)
+{
+    
+    .cake-img{
+        height: 400px;
+    }
+    .cake-img h1{
+        font-size: 2rem;
+    }
+}

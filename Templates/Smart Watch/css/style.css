@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-family:'Poppins', sans-serif;
+    --white-color:white;
+    --black-color:black;
+    --blue-color:#235EE7;
+    --heading-color:#222222;
+    --paragraph-color:#777777;
+    --gradient-color:#4ae7fa;
+    --watches-bg-color:#04091e;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+header{
+    height: 100vh;
+    background: url(../images/background/header-bg.png.webp)no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.fixed-navigation{
+    height: 60px;    
+}
+.fixed-navigation li{
+    list-style-type: none;
+}
+.fixed-navigation li a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.mob-nav{
+    height: 45px;
+}
+.hero-section{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section h6{
+    color: var(--white-color);
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.hero-section h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-top: 15px;
+}
+.buy-now{
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    padding: 5px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.get-started{
+    margin: 100px 0;
+}
+.left-of-girls h6{
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+    color: var(--blue-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+h2{
+    font-size: 2rem;
+    color: var(--heading-color);
+    font-weight: 600;
+}
+
+p{
+    font-size: 0.9rem;
+    font-weight: 300px;
+    color: var(--paragraph-color);
+}
+.get-started-now{
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: var(--white-color);
+    background-color: var(--heading-color);
+    padding: 5px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.two-girls{
+    height: 400px;
+    background:linear-gradient(rgba(0, 0, 0, 0.411) , rgba(0, 0, 0, 0.582)), url(../images/background/video-bg.png.webp) no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-courses{
+    margin: 100px 0;
+}
+.top-courses i{
+    color: var(--blue-color);
+    font-size: 2rem;
+}
+.top-courses h4{
+    margin: 10px 0;
+}
+h4{
+    text-transform: capitalize;
+    color: var(--heading-color);
+    font-size: 1.3rem;
+}
+
+.get-details{
+    /* border: 1px solid transparent; */
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: var(--white-color);
+    background: linear-gradient( to right, #235ee7 , #4ae7fa );
+    padding: 5px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+
+.feature-section{
+    margin: 100px 0;
+}
+.feature{
+    width: 90%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(233, 229, 229, 0.644);
+}
+
+.feature i {
+    color: var(--blue-color);
+    font-size: 1.5rem;
+}
+.feature h4{
+    margin: 10px 0;
+}
+.watches{
+    margin: 100px 0;
+    background: var(--watches-bg-color);
+    padding: 100px 0;
+}
+.watch{
+    text-align: center;
+    background: var(--white-color);
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+.watch img{
+    padding: 50px 0;
+}
+.watch span{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--blue-color);
+    margin: 10px 0;
+}
+.pre-order{
+    text-decoration: none;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: var(--white-color);
+    background: var(--heading-color);
+    padding: 5px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+.review-section{
+    margin: 100px 0;
+}
+
+.review{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgba(29, 28, 28, 0.637);
+    border-radius: 20px;
+    padding: 20px;
+    background: rgba(238, 238, 238, 0.452);
+}
+.review h4{
+    color: var(--blue-color);
+}
+
+.faqs{
+    margin: 100px 0;
+    background: url(../images/background/faq-bg.jpg.webp) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+}
+
+.accordion-button{
+    background: linear-gradient( to right, #235ee7 , #4ae7fa ); 
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+.accordion-button:hover ,
+.accordion-button:focus{
+    color: white;
+}
+
+footer{
+    padding: 70px  0;
+    background: var(--watches-bg-color);
+}
+
+footer h5{
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+
+@media (max-width:767px)
+{
+    .hero-section{
+        height: 40vh;
+    }
+    .hero-section h6{
+        font-size: 0.8rem;
+    }
+    .hero-section h1{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+:root{
+    --red-color: rgb(208, 25, 25);
+    --white-color: white;
+    --header-color:rgb(28, 26, 26);
+    --title-color:rgb(38,38,39);
+    --paragraph-dark:rgb(67,67,69);
+    --paragraph-light:rgb(147,147,147);
+    --blog-section-bg-color:#e8edf6;
+    --orange-color:#ff8c33;
+    --footer-bg:#191919;
+
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+.top-header{
+    height: 45px;
+    background-color: var(--red-color);
+}
+.top-header li{
+    list-style-type: none;
+}
+.top-header li a{
+    text-decoration: none;
+    color: var(--white-color);
+    margin-right: 15px;
+}
+.middle-header{
+    height: 80px;
+    background:var(--header-color) ;
+}
+
+.middle-header li
+{
+    list-style-type: none;
+}
+.middle-header li a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: var();
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.mobile-nav{
+    height: 50px;
+    background: var(--header-color);
+}
+
+.carousel-item h1{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.carousel-item p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.red-btn{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(208, 25, 25);
+    border: 2x solid white;
+    font-size: 1rem;
+}
+
+.subscribe{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.welcome{
+    margin: 100px auto;
+}
+h2{
+    color: var(--title-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.para{
+    color: var(--paragraph-1);
+}
+.red-line{
+    width: 70px;
+    height: 3px;
+    margin-top: 20px; 
+   color: var(--red-color);
+    background: var(--red-color);
+}
+
+.white-line{
+    width: 70px;
+    height: 3px;
+    margin-top: 20px; 
+    color: var(--white-color);
+    background: var(--white-color);
+}
+.welcome h4{
+    color: var(--red-color);
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    border: 2px solid rgba(219, 216, 216, 0.507);
+    min-height: 200px;
+    padding: 0px 10px;
+    padding-top: 50px;
+
+}
+
+.rounded-button{
+    width: 60px;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px black solid;
+border-radius: 50%;
+background: linear-gradient(45deg, #191919 0%, #434345 100%);
+color: var(--white-color);
+font-size: 1.5rem;
+position: absolute;
+bottom: 172px;
+top: -27px;
+}
+
+.offer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.offer h5{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.offer-1{
+    
+    height: 350px;
+    background: url(../images/illustrations/home-01-480x480.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.offer-2{
+    height: 350px;
+    background: url(../images/illustrations/home-02-480x480.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.offer-3{
+    height: 350px;
+    background: url(../images/illustrations/home-03-480x480.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+.offer-4{
+    height: 350px;
+    background:url(../images/illustrations/c-4.jpg) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.coaches{
+    margin: 100px auto;
+}
+.coaches h5 a{
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.coaches h5 small{
+    color: var(--red-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.coaches p{
+    color: var(--paragraph-light);
+}
+.coach{
+    width: 95%;
+}
+.blog{
+    background: var(--blog-section-bg-color);
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blog-1{
+    width: 100%;
+    height: 330px;
+    background: url(../images/illustrations/post-01-570x321.jpg) no-repeat;
+    background-size: cover;
+}
+.blog-2{
+    height: 330px;
+    background: url(../images/illustrations/post-02-570x321.jpg) no-repeat;
+    background-size: cover;
+}
+.blog-3{
+    height: 330px;
+    background: url(../images/illustrations/post-03-570x321.jpg) no-repeat;
+    background-size: cover;
+}
+.blog-4{
+    height: 330px;
+    background: url(../images/illustrations/post-04-570x321.jpg) no-repeat;
+    background-size: cover;
+}
+
+.orange div{
+    background: var(--orange-color);
+    color: var(--white-color);
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.blog h4{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+.blog ul{
+    padding: unset;
+}
+.blog li{
+    list-style-type: none;
+    color: var(--white-color);
+    font-style: italic
+}
+
+.blog li span{
+    color: var(--orange-color);
+    text-transform: capitalize;    
+}
+
+.testimonial{
+    min-height: 90vh;
+    background: linear-gradient(rgba(48, 47, 47, 0.603),rgba(37, 32, 32, 0.507)) ,url(../images/background/testimonial.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 70px;
+}
+.circle-img{
+    border-radius: 50%;
+}
+
+footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: var(--footer-bg);
+}
+footer h4{
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+footer span{
+    color: var(--blog-section-bg-color);
+}
+
+@media(max-width:576px)
+{
+    .carousel-item h1{
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    
+    .carousel-item p{
+        display: none;
+    }
+    .red-btn{
+        font-size: 0.5rem;
+    }
+    .orange{
+        visibility: hidden;
+    }
+}
+@media (max-width:768px)
+{
+    .carousel-item h1{
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    .carousel-item p{
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+}
