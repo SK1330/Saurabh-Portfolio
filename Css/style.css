@@ -12,6 +12,8 @@
 body{
     font-family: var(--font-family);
     overflow-x: hidden;
+    margin:0px;
+    padding: 0px;
 }
 
 
@@ -32,6 +34,9 @@ header .nav-link:focus {
 .laptop-header{
     position: sticky;
     top: 0%;
+}
+.mobile-header .row{
+    --bs-gutter-x:0;
 }
 .hero-section{
    min-height: 90vh;
@@ -321,12 +326,12 @@ footer{
 
 .topcontrol{
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 20px;
+    right: 20px;
     opacity: 1;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: var(--color-scheme);
     border-radius: 50%;
     font-size: 1.3rem;
@@ -393,7 +398,7 @@ footer{
 
   .loader-wrapper{
       width: 100vw;
-      height: 6000px;
+      height: 10000px;
       position: absolute;
       top: 0%;
       left: 0%;
@@ -420,7 +425,7 @@ footer{
       margin: -75px 0 0 -75px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #d2e772;
+      border-top-color: #f18459;
       -webkit-animation: spin 2s linear infinite;
       animation: spin 2s linear infinite;
   }
@@ -433,7 +438,7 @@ footer{
       bottom: 5px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #cce94b;
+      border-top-color: #dfb93d;
       -webkit-animation: spin 3s linear infinite;
       animation: spin 3s linear infinite;
   }
@@ -446,7 +451,7 @@ footer{
       bottom: 15px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: #fbff00;
+      border-top-color: #ffee00;
       -webkit-animation: spin 1.5s linear infinite;
       animation: spin 1.5s linear infinite;
   }
