@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    
+
     <div class="loader-wrapper">
         <div id="preloader">
             <div id="loader"></div>
@@ -106,9 +106,8 @@
                         <span>Hire me</span>
                     </button> -->
                 </div>
-                <div class="col-md-5 mt-5 mt-md-0 right-hero  order-1 d-flex justify-content-center"
-                    data-aos="fade-up" data-aos-anchor="#example-anchor" data-aos-offset="500"
-                    data-aos-duration="2000 ">
+                <div class="col-md-5 mt-5 mt-md-0 right-hero  order-1 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000 ">
                     <!-- <div class="sk d-flex justify-content-center align-items-center">
                     </div> -->
                     <img src="Images/background/IMG-20171230-WA0031.jpg" alt="Saurabh Picture"
@@ -252,7 +251,7 @@
 
         <div class="container mt-4 ">
             <div class="row">
-                <div class="col-md-6" >
+                <div class="col-md-6">
                     <div class="col-11 mb-5">
                         <div class="d-flex justify-content-between">
                             <h6>Web Design</h6>
@@ -284,7 +283,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6" >
+                <div class="col-md-6">
                     <div class="col-11 mb-5">
                         <div class="d-flex justify-content-between">
                             <h6>JavaScript</h6>
@@ -599,8 +598,7 @@
                             <div class="flip-box template">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img class="img-fluid h-100 w-100"
-                                            src="Images/illustration/cake-ss.png" alt="">
+                                        <img class="img-fluid h-100 w-100" src="Images/illustration/cake-ss.png" alt="">
                                     </div>
                                     <div class="flip-box-back d-flex flex-column bg-warning justify-content-center">
                                         <h3>JustShopee</h3>
@@ -616,8 +614,7 @@
                             <div class="flip-box template">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img class="img-fluid h-100 w-100"
-                                            src="Images/illustration/car-ss.png" alt="">
+                                        <img class="img-fluid h-100 w-100" src="Images/illustration/car-ss.png" alt="">
                                     </div>
                                     <div class="flip-box-back d-flex flex-column bg-warning justify-content-center">
                                         <h3>Car Repair</h3>
@@ -635,8 +632,8 @@
                             <div class="flip-box template">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img class="img-fluid h-100 w-100"
-                                            src="Images/illustration/watch-ss.png" alt="">
+                                        <img class="img-fluid h-100 w-100" src="Images/illustration/watch-ss.png"
+                                            alt="">
                                     </div>
                                     <div class="flip-box-back d-flex flex-column bg-warning justify-content-center">
                                         <h3>Smart Watch</h3>
@@ -651,8 +648,7 @@
                             <div class="flip-box template">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img class="img-fluid h-100 w-100"
-                                            src="Images/illustration/gym-ss.png" alt="">
+                                        <img class="img-fluid h-100 w-100" src="Images/illustration/gym-ss.png" alt="">
                                     </div>
                                     <div class="flip-box-back d-flex flex-column bg-warning justify-content-center">
                                         <h3>Intense Gym</h3>
@@ -667,14 +663,14 @@
                             <div class="flip-box template">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img class="img-fluid h-100 w-100"
-                                            src="Images/illustration/rolax-ss.png" alt="">
+                                        <img class="img-fluid h-100 w-100" src="Images/illustration/rolax-ss.png"
+                                            alt="">
                                     </div>
                                     <div class="flip-box-back d-flex flex-column bg-warning justify-content-center">
                                         <h3>Rolax Hotel</h3>
                                         <p>Made using BootStrap</p>
-                                        <a class="text-decoration-none text-dark"
-                                            href="Templates/Rolax/index.html"> Read More</a>
+                                        <a class="text-decoration-none text-dark" href="Templates/Rolax/index.html">
+                                            Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -764,6 +760,9 @@
         </div>
         <div class="container">
 
+            <div id="succmsg" class="col-sm-12" style="display: none;"></div>
+
+
             <div class="row align-items-center">
                 <div class="col-12 col-lg-4 mb-4">
                     <div class="information shadow ">
@@ -779,32 +778,43 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
+                    <div id="succmsg" class="col-sm-12" style="display: none;"></div>
                     <div class="contact_form px-5">
                         <h4>Send a Message</h4>
-                        <form id="contactform" action="#" method="post">
+                        <form  name="frm_contact_us" id="frm_contact_us" method="post" action="">
                             <div class="row">
-                                <div class="col-lg-6 my-3">
-                                    <input type="text" class="clear form-control frm" name="name"
+                                <div class="col-lg-6 my-3 form-group">
+                                    <!-- <label for="txtname">Name</label> -->
+                                    <input type="text" class="clear form-control frm" name="txtname" id="txtname"
                                         placeholder="Your Name" required="">
                                 </div>
-                                <div class="col-lg-6 my-3">
-                                    <input type="email" class="clear form-control frm " name="email"
+                                <div class="col-lg-6 my-3 form-group">
+                                    <!-- <label for="txtphone">Contact No.</label> -->
+                                    <input type="text" name="txtphone" id="txtphone" class="clear form-control frm"
+                                        placeholder="Contact no :" />
+
+                                </div>
+                                <div class="col-12  form-group">
+                                    <!-- <label for="txtemail">EmailID</label> -->
+                                    <input type="email" class="clear form-control frm " name="txtemail" id="txtemail"
                                         placeholder="Your mail" required="">
+
                                 </div>
-                                <div class="col-12 ">
-                                    <textarea name="message" class="clear w-100 form-control frm" cols="20" rows="5"
-                                        placeholder="Your Message..." required=""></textarea>
+                                <div class="col-12 my-3 form-group">
+                                    <textarea name="txtmsg" id="ta_msg" class="clear w-100 form-control frm" cols="20"
+                                        rows="5" placeholder="Your Message..." required=""></textarea>
                                 </div>
-                                <div class="col-lg-12 mt-3">
-                                    <input class="submit-btn" type="submit" value="Send me">
+                                <div class="col-lg-12 mt-3 form-group">
+                                    <input class="submit-btn" type="submit" name="submit" value="Send me">
                                 </div>
                             </div>
-                        </form><br>
+                        </form>
 
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -857,6 +867,9 @@
 
     <!-- Javascript Bundle -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="Javascript/jquery.validate.js"></script>
+    <script src="Javascript/contact_us.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
